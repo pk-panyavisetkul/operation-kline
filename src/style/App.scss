@@ -1,0 +1,17 @@
+.operation-kline {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.sidebar {
+  position: relative;
+  height: 100vh;
+  background: #eaeaea;
+  flex: 4%;
+}
+
+.main-screen {
+  position: relative;
+  flex: 96%;
+}
