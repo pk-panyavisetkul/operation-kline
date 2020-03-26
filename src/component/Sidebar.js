@@ -6,7 +6,7 @@ import "./../style/Sidebar.scss";
 
 function Sidebar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light navbar-left">
+    <nav className="navbar navbar-default navbar-expand-lg navbar-light navbar-left">
       <button
         className="navbar-toggler"
         type="button"
@@ -29,6 +29,31 @@ function Sidebar() {
             <li className="nav-item">
               <Link className="nav-link" to="/profile">
                 Profile
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/ViewApplicationList">
+                View Application List
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/ViewApplicationDetail">
+                View Application Detail
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/InputEstimateIncome">
+                Input Estimate Income
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/UploadStatement">
+                Upload Statement
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/SendNotificationToCustomer">
+                Send Notification To Customer
               </Link>
             </li>
           </ul>
