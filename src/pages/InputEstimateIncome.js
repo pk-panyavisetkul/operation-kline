@@ -1,11 +1,15 @@
-import React from "react"
+import React from "react";
+import { AppProvider, Page } from "@shopify/polaris";
+import InputIncomeComponent from "../component/InputIncomeComponent";
 
 function InputEstimateIncome() {
-    return (
-        <div className="container">
-            <h1>Input Estimate Income</h1>
-        </div>
-    );
+  return (
+    <AppProvider>
+      <Page title="Input Estimate Income">
+        <InputIncomeComponent />
+      </Page>
+    </AppProvider>
+  );
 }
 
 export default InputEstimateIncome;

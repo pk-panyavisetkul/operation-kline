@@ -1,11 +1,16 @@
-import React from "react"
+import React from "react";
+import { AppProvider, Page } from "@shopify/polaris";
+
+import DataTableComponent from "../component/DataTableComponent";
 
 function ViewApplicationList() {
-    return (
-        <div className="container">
-            <h1>View Application List</h1>
-        </div>
-    );
+  return (
+    <AppProvider>
+      <Page title="Application List">
+        <DataTableComponent />
+      </Page>
+    </AppProvider>
+  );
 }
 
 export default ViewApplicationList;

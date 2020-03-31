@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./../style/App.scss";
 import Sidebar from "./Sidebar";
-import MainScreen from "../screen/MainScreen";
+import MainScreen from "../pages/MainScreen";
 import { AuthenProvider } from "../store/AuthenContext";
 
 function App() {

@@ -1,8 +1,8 @@
 import React from "react";
 import Heading from "@shopify/polaris";
 
-function HeaderPage(props) {
+function HeaderComponent(props) {
   return <Heading>{props.title}</Heading>;
 }
 
-export default HeaderPage;
+export default HeaderComponent;

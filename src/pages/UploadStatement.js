@@ -1,11 +1,15 @@
-import React from "react"
+import React from "react";
+import { AppProvider, Page } from "@shopify/polaris";
+import ListDownloadComponent from "../component/ListDownloadComponent";
 
 function UploadStatement() {
-    return (
-        <div className="container">
-            <h1>Upload Statement</h1>
-        </div>
-    );
+  return (
+    <AppProvider>
+      <Page title="Download Statement">
+        <ListDownloadComponent />
+      </Page>
+    </AppProvider>
+  );
 }
 
 export default UploadStatement;

@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from '@shopify/polaris';
+import Layout from "@shopify/polaris";
 
-function MainPanel(props) {
+function MainPanelComponent(props) {
   return (
     <Layout>
       <Layout.Section>{props.children}</Layout.Section>
@@ -9,4 +9,4 @@ function MainPanel(props) {
   );
 }
 
-export default MainPanel;
+export default MainPanelComponent;

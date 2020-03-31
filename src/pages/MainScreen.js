@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 // eslint-disable-next-line
 import { BrowserRouter, Route, Redirect } from "react-router-dom";
+import './../style/MainScreen.scss';
 
 import Profile from "./Profile";
 import Authentication from "./Authentication";
@@ -27,7 +28,7 @@ function MainScreen(props) {
       <Route exact path={`/login`} component={Authentication} />
       <Route exact path={`/profile`} component={Profile} />
       <Route exact path={`/ViewApplicationList`} component={ViewApplicationList} />
-      <Route exact path={`/ViewApplicationDetail`} component={ViewApplicationDetail} />
+      <Route exact path={`/ViewApplicationDetail/:id`}  component={ViewApplicationDetail} />
       <Route exact path={`/InputEstimateIncome`} component={InputEstimateIncome} />
       <Route exact path={`/UploadStatement`} component={UploadStatement} />
       <Route exact path={`/SendNotificationToCustomer`} component={SendNotificationToCustomer} />
