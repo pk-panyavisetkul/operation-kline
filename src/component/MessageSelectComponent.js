@@ -119,7 +119,7 @@ function MessageSelect() {
                       onChange={handleMessageChange}
                       type="text"
                     />
-                    <span onClick={clearMessage}>
+                    <span className="icon-refresh" onClick={clearMessage}>
                       <Icon source={RefreshMajorMonotone} />
                     </span>
                     <Button submit>Send</Button>

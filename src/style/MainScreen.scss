@@ -2,9 +2,8 @@
 
 .Polaris-Page {
   background: $white;
-  margin: 2em auto !important;
   border-radius: 10px;
-  max-width: 95%;
+  max-width: 95% !important;
 }
 
 .send-notification-to-customer-modal {
@@ -28,6 +27,12 @@
 
     .input-message {
       margin-top: 10px;
+
+      .Polaris-FormLayout__Item {
+        .icon-refresh {
+          width: 150px;
+        }
+      }
 
       .Polaris-ChoiceList {
         ul {

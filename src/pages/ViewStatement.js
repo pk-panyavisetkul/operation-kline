@@ -2,14 +2,14 @@ import React from "react";
 import { AppProvider, Page } from "@shopify/polaris";
 import ListDownloadComponent from "../component/ListDownloadComponent";
 
-function UploadStatement() {
+function ViewStatement() {
   return (
     <AppProvider>
-      <Page title="Download Statement">
+      <Page title="View Statement">
         <ListDownloadComponent />
       </Page>
     </AppProvider>
   );
 }
 
-export default UploadStatement;
+export default ViewStatement;

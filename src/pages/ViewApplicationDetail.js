@@ -1,11 +1,15 @@
-import React from "react"
+import React from "react";
+import { AppProvider, Page } from "@shopify/polaris";
+import ListDownloadComponent from "../component/ListDownloadComponent";
 
 function ViewApplicationDetail() {
-    return (
-        <div className="container">
-            <h1>View Application Detail</h1>
-        </div>
-    );
+  return (
+    <AppProvider>
+      <Page title="View Application Detail">
+        <ListDownloadComponent />
+      </Page>
+    </AppProvider>
+  );
 }
 
 export default ViewApplicationDetail;

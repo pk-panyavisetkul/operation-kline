@@ -9,7 +9,7 @@ import AuthenContext from "../store/AuthenContext";
 import ViewApplicationList from './ViewApplicationList';
 import ViewApplicationDetail from './ViewApplicationDetail';
 import InputEstimateIncome from './InputEstimateIncome';
-import UploadStatement from './UploadStatement';
+import ViewStatement from './ViewStatement';
 import SendNotificationToCustomer from './SendNotificationToCustomer';
 
 function MainScreen(props) {
@@ -30,7 +30,7 @@ function MainScreen(props) {
       <Route exact path={`/ViewApplicationList`} component={ViewApplicationList} />
       <Route exact path={`/ViewApplicationDetail/:id`}  component={ViewApplicationDetail} />
       <Route exact path={`/InputEstimateIncome`} component={InputEstimateIncome} />
-      <Route exact path={`/UploadStatement`} component={UploadStatement} />
+      <Route exact path={`/ViewStatement`} component={ViewStatement} />
       <Route exact path={`/SendNotificationToCustomer`} component={SendNotificationToCustomer} />
     </BrowserRouter>
   );

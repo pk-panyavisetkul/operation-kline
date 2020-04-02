@@ -2,17 +2,18 @@
 
 .operation-kline {
   position: relative;
-  display: block;
+  display: flex;
+  width: auto;
 }
 
 .top-bar {
   position: relative;
   display: block;
-  height: 40px;
-  background: $light-grey;
-  border: 1px solid $light-grey;
+  height: 50px;
+  background: $white;
 
   & .navbar-brand {
+    display: none;
     color: $white;
     font-size: 2.5em;
     line-height: 0.5em;
@@ -27,18 +28,21 @@
 
 .main-dashboard {
   position: relative;
-  width: 100%;
-  display: flex;
+  display: block;
+  flex: 94% 1;
+  background: $bg-main-screen;
+  height: 100vh;
 }
 
 .sidebar {
   position: relative;
+  display: block;
   height: 100vh;
-  flex: 4%;
+  flex: 0.5% 1;
 }
 
 .main-screen {
   position: relative;
-  flex: 96%;
-  background: $bg-main-screen; 
+  display: block;
+  margin: 2em auto;
 }
