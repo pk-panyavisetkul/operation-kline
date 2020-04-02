@@ -18,7 +18,7 @@ function App() {
           </ParameterProvider>
         </div>
         <div className="main-dashboard">
-          <nav className="navbar navbar-default navbar-light top-bar">
+          <nav className="navbar navbar-default navbar-light top-bar shadow">
             <button
               onClick={() => setShowNavbar(!showNavbar)}
               className="navbar-toggler"

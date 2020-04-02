@@ -11,3 +11,7 @@ $logo-line-bk-small: url($images-path-url + '/logo/line-bk-logo-symbol.png');
 $logo-line-bk-medium: url($images-path-url + '/logo/line-bk-logo-symbol@2x.png');
 $logo-line-bk-large: url($images-path-url + '/logo/line-bk-logo-symbol@3x.png');
 $logo-line-bk: url($images-path-url + '/logo/logo-line-bk.svg');
+
+.shadow {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15) !important;
+}

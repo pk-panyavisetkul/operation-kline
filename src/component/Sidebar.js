@@ -14,7 +14,7 @@ function Sidebar(props) {
   
   return (
     <nav className="navbar navbar-default navbar-light navbar-left">
-      <span className={showNavbar ? "navbar-brand" : "navbar-brand-logo"}></span>
+      <span className={showNavbar ? "shadow navbar-brand" : "shadow navbar-brand-logo"}></span>
       <div className="collapse navbar-collapse show" id="navbarSupportedContent">
         <AppProvider>
           <BrowserRouter basename="/" forceRefresh={true}>

@@ -11,6 +11,7 @@
   display: block;
   height: 50px;
   background: $white;
+  box-shadow: 0 2px $light-grey;
 
   & .navbar-brand {
     display: none;
@@ -39,6 +40,26 @@
   display: block;
   height: 100vh;
   flex: 0.5% 1;
+
+  @media only screen and (max-width: 576px) {
+    flex: 6% 1;
+  }
+
+  @media only screen and (min-width: 576px) {
+    flex: 6% 1;
+  }
+
+  @media only screen and (min-width: 720px) {
+    flex: 4% 1;
+  }
+
+  @media only screen and (min-width: 960px) {
+    flex: 4% 1;
+  }
+
+  @media only screen and (min-width: 1140px) {
+    flex: 0.5% 1;
+  }
 }
 
 .main-screen {

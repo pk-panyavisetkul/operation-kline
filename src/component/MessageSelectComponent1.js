@@ -14,7 +14,7 @@ import {
 } from "@shopify/polaris";
 import { SearchMinor, RefreshMajorMonotone } from "@shopify/polaris-icons";
 
-function MessageSelect() {
+function MessageSelect1() {
   const mockupOptionList = [
     {
       value: "ติดต่อ Operation กลับ",
@@ -145,4 +145,4 @@ function MessageSelect() {
   );
 }
 
-export default MessageSelect;
+export default MessageSelect1;

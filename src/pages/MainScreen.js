@@ -11,6 +11,7 @@ import ViewApplicationDetail from './ViewApplicationDetail';
 import InputEstimateIncome from './InputEstimateIncome';
 import ViewStatement from './ViewStatement';
 import SendNotificationToCustomer from './SendNotificationToCustomer';
+import SendNotificationToCustomer1 from './SendNotificationToCustomer1';
 
 function MainScreen(props) {
   // eslint-disable-next-line
@@ -32,6 +33,7 @@ function MainScreen(props) {
       <Route exact path={`/InputEstimateIncome`} component={InputEstimateIncome} />
       <Route exact path={`/ViewStatement`} component={ViewStatement} />
       <Route exact path={`/SendNotificationToCustomer`} component={SendNotificationToCustomer} />
+      <Route exact path={`/SendNotificationToCustomer1`} component={SendNotificationToCustomer1} />
     </BrowserRouter>
   );
 }
